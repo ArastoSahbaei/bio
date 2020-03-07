@@ -16,14 +16,14 @@ export const Home = () => {
 
             <div className="buttonContainer">
                 <div className="button">
-                    <a href="#">
+                    <a href="/#">
                         CONTACT&nbsp;&nbsp;
 		<span className="shift">›</span>
                     </a>
                     <div className="mask"></div>
                 </div> <br />
                 <div className="button">
-                    <a href="#">
+                    <a href="/#">
                         ABOUT ME&nbsp;&nbsp;
 		<span className="shift">›</span>
                     </a>
