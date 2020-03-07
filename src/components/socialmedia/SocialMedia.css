@@ -1,0 +1,48 @@
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 28px;
+}
+
+.facebook {
+    background: #000;
+}
+
+.github {
+    background: #000;
+}
+
+.linkedin {
+    background: #000;
+}
+
+.youtube {
+    background: #000;
+}
+
+.facebook:hover {
+    background: #3B5998;
+}
+
+.github:hover {
+    background: #6e5494;
+}
+
+.linkedin:hover {
+    background: #007bb5;
+}
+
+.youtube:hover {
+    background: #bb0000;
+}

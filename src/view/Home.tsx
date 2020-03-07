@@ -1,8 +1,8 @@
 import React from 'react'
 import './Home.css'
 import FirstViewImage from '../utils/images/idk2.jpeg'
-import SelfImage from '../components/SelfImage/SelfImage'
-import TextLooper from "../components/TextLoop/TextLoop"
+import SelfImage from '../components/selfimage/SelfImage'
+import TextLooper from "../components/textloop/TextLoop"
 
 export const Home = () => {
     return (
@@ -21,7 +21,7 @@ export const Home = () => {
 		<span className="shift">›</span>
                     </a>
                     <div className="mask"></div>
-                </div> <br/>
+                </div> <br />
                 <div className="button">
                     <a href="#">
                         ABOUT ME&nbsp;&nbsp;
