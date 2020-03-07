@@ -253,6 +253,7 @@
    0% {
       transform: scale(1);
       background-color: #3B5998;
+      transform: translateX(-300px);
    }
 
    25% {
@@ -285,6 +286,7 @@
 
    100% {
       transform: scale(1);
+      opacity: 1;
    }
 }
 
@@ -292,6 +294,7 @@
    0% {
       transform: scale(1);
       background-color: #6e5494;
+      transform: translateX(-300px);
    }
 
    25% {
@@ -316,14 +319,19 @@
 
    65% {
       transform: scale(1.1);
+      background-color: #6e5494;
+
    }
 
    75% {
       transform: scale(1.03);
+      background-color: #6e5494;
+
    }
 
    100% {
       transform: scale(1);
+      opacity: 1;
    }
 }
 
@@ -331,6 +339,7 @@
    0% {
       transform: scale(1);
       background-color: #007bb5;
+      transform: translateX(-300px);
    }
 
    25% {
@@ -355,31 +364,36 @@
 
    65% {
       transform: scale(1.1);
+      background-color: #007bb5;
    }
 
    75% {
       transform: scale(1.03);
+      background-color: #007bb5;
    }
 
    100% {
       transform: scale(1);
+      opacity: 1;
+
    }
 }
 
 @keyframes fadeYoutube {
    0% {
       transform: scale(1);
-      background-color: #bb0000;
+      background-color: #000000;
+      transform: translateX(-300px);
    }
 
    25% {
       transform: scale(.97);
-      background-color: #bb0000;
+      background-color: #000000;
    }
 
    35% {
       transform: scale(.9);
-      background-color: #bb0000;
+      background-color: #000000;
    }
 
    45% {
@@ -394,13 +408,16 @@
 
    65% {
       transform: scale(1.1);
+      background-color: #bb0000;
    }
 
    75% {
       transform: scale(1.03);
+      background-color: #bb0000;
    }
 
    100% {
       transform: scale(1);
+      opacity: 1;
    }
 }

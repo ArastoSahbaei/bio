@@ -1,6 +1,7 @@
 .icon-bar {
     position: fixed;
     top: 50%;
+    width: 5%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -17,26 +18,41 @@
 
 .facebook {
     background: #000;
-    animation-name: fadeFacebook;
-    animation-duration: 1s;
+    animation-name: fromLeftToRight;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+    animation-delay: 4s;
+    opacity: 0;
 }
 
 .github {
     background: #000;
-    animation-name: fadeGithub;
-    animation-duration: 1.1s;
+    animation-name: fromLeftToRight;
+    animation-fill-mode: forwards;
+    animation-duration: 2.2s;
+    animation-delay: 4s;
+    opacity: 0;
+
 }
 
 .linkedin {
     background: #000;
-    animation-name: fadeLinkedin;
-    animation-duration: 1.2s;
+    animation-name: fromLeftToRight;
+    animation-fill-mode: forwards;
+    animation-duration: 2.4s;
+    animation-delay: 4s;
+    opacity: 0;
+
 }
 
 .youtube {
     background: #000;
-    animation-name: fadeYoutube;
-    animation-duration: 1.3s;
+    animation-name: fromLeftToRight;
+    animation-fill-mode: forwards;
+    animation-duration: 2.6s;
+    animation-delay: 4s;
+    opacity: 0;
+
 }
 
 .facebook:hover {
