@@ -1,0 +1,6 @@
+.arastoImage {
+    border-radius: 50%;
+    height: 24vh;
+    width: 24vh;
+    border: 5px solid #FF6600;
+}
