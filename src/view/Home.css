@@ -68,10 +68,6 @@
     position: relative;
     text-align: center;
     text-transform: uppercase;
-    transition:
-        background 5s cubic-bezier(0.19, 1, 0.22, 1),
-        border 1s cubic-bezier(0.19, 1, 0.22, 1),
-        color 0.6s cubic-bezier(0.19, 1, 0.22, 1);
     user-select: none;
 }
 
@@ -170,5 +166,119 @@ body.show {
 
     .buttonContainer {
         margin-top: 20%;
+    }
+}
+
+@media only screen and (max-width: 1314px) {
+    .titleSpan {
+        font-size: 3rem;
+        margin-top: 2%;
+    }
+
+    .greetTitle {
+        font-size: 5rem !important;
+        margin-bottom: 9%;
+    }
+
+    .buttonContainer {
+        margin-top: 20%;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .titleSpan {
+        font-size: 3rem;
+        margin-top: 1%;
+    }
+
+    .greetTitle {
+        font-size: 5rem !important;
+        margin-bottom: 12%;
+    }
+
+    .buttonContainer {
+        margin-top: 23%;
+    }
+}
+
+@media only screen and (max-width: 925px) {
+    .titleSpan {
+        font-size: 3rem;
+        margin-top: 1%;
+    }
+
+    .greetTitle {
+        font-size: 5rem !important;
+        margin-bottom: 16%;
+    }
+
+    .buttonContainer {
+        margin-top: 29%;
+    }
+}
+
+@media only screen and (max-width: 795px) {
+    .selfImage {
+        margin-top: 15%;
+    }
+
+    .titleSpan {
+        font-size: 2.5rem;
+        margin-top: 1%;
+    }
+
+    .greetTitle {
+        font-size: 4rem !important;
+        margin-bottom: 16%;
+    }
+
+    .buttonContainer {
+        margin-top: 33%;
+    }
+}
+
+
+
+
+
+
+/* IPHONE X */
+@media only screen and (max-width: 375px) {
+    .selfImage {
+        margin-top: 18%;
+    }
+
+    .titleSpan {
+        font-size: 2.6rem;
+        margin-top: 18vh;
+    }
+
+    .greetTitle {
+        font-size: 3.2rem !important;
+        margin-bottom: 7vh;
+    }
+
+    .buttonContainer {
+        margin-top: 75vh;
+    }
+}
+
+@media only screen and (max-width: 455px) {
+    .selfImage {
+        margin-top: 3vh;
+    }
+
+    .titleSpan {
+        font-size: 2.8rem;
+        margin-top: 7vh;
+    }
+
+    .greetTitle {
+        font-size: 3.8rem !important;
+        margin-bottom: 22vh;
+    }
+
+    .buttonContainer {
+        margin-top: 63vh;
     }
 }
