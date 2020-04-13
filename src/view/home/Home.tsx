@@ -15,8 +15,7 @@ export const Home = () => {
 
             <div className="buttonContainer">
                 <div className="button">
-                    <a href="/#">
-                        CONTACT <span className="shift">›</span>
+                    <a href="/#"> CONTACT <span className="shift">›</span>
                     </a>
                     <div className="mask"></div>
                 </div>
