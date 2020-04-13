@@ -3,6 +3,7 @@ import './Home.css'
 import FirstViewImage from '../../utils/images/idk2.jpeg'
 import SelfImage from '../../components/selfimage/SelfImage'
 import TextLooper from "../../components/textloop/TextLoop"
+import { Link } from "react-scroll"
 
 export const Home = () => {
     return (
@@ -14,19 +15,41 @@ export const Home = () => {
             <br />
 
             <div className="buttonContainer">
-                <div className="button">
-                    <a href="/#"> CONTACT <span className="shift">›</span>
-                    </a>
-                    <div className="mask"></div>
-                </div>
+                <Link activeClass="active"
+                    to="contactContainer"
+                    spy={true}
+                    smooth={true}
+                    hashSpy={true}
+                    offset={50}
+                    duration={500}
+                    isDynamic={true}
+                    ignoreCancelEvents={false}>
+                    <div className="button">
+                        <a>
+                            CONTACT <span className="shift">›</span>
+                        </a>
+                        <div className="mask"></div>
+                    </div>
+                </Link>
+
                 <br />
-                <div className="button">
-                    <a href="/#">
-                        ABOUT ME <span className="shift">›</span>
-                    </a>
-                    <div className="mask"></div>
-                </div>
+                <Link activeClass="active"
+                    to="contactContainer"
+                    spy={true}
+                    smooth={true}
+                    hashSpy={true}
+                    offset={50}
+                    duration={500}
+                    isDynamic={true}
+                    ignoreCancelEvents={false}>
+                    <div className="button">
+                        <a>
+                            ABOUT ME <span className="shift">›</span>
+                        </a>
+                        <div className="mask"></div>
+                    </div>
+                </Link>
             </div>
-        </div>
+        </div >
     )
 }
