@@ -1,8 +1,8 @@
 import React from 'react'
 import './Home.css'
-import FirstViewImage from '../utils/images/idk2.jpeg'
-import SelfImage from '../components/selfimage/SelfImage'
-import TextLooper from "../components/textloop/TextLoop"
+import FirstViewImage from '../../utils/images/idk2.jpeg'
+import SelfImage from '../../components/selfimage/SelfImage'
+import TextLooper from "../../components/textloop/TextLoop"
 
 export const Home = () => {
     return (
