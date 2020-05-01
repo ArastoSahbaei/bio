@@ -24,7 +24,7 @@ export const About = () => {
             </div>
 
             <div className="heartContainer">
-                <img className="developerImage" src={HeartImg} alt="" />
+                <img className="heartImage" src={HeartImg} alt="" />
                 <p className="aboutMeTitle3">My heart beats for Family, friends, my dog, outdoor life, chess & pizza!</p>
             </div>
         </div>
