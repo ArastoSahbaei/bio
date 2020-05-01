@@ -12,6 +12,8 @@ export const About = () => {
                 <p className="aboutMeTitle"> Arasto Sahbaei, 27.</p>
                 <img className="developerImage" src={DeveloperImg} alt="" />
                 <p className="pitchText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti omnis quidem inventore, aliquam, eligendi nostrum cumque laudantium, voluptate impedit deserunt molestias minus hic similique repellat. Consectetur unde dolores a error?</p>
+                <p className="pitchText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti omnis quidem inventore, aliquam, eligendi nostrum cumque laudantium, voluptate impedit deserunt molestias minus hic similique repellat. Consectetur unde dolores a error?</p>
+                <p className="pitchText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti omnis quidem inventore, aliquam, eligendi nostrum cumque laudantium, voluptate impedit deserunt molestias minus hic similique repellat. Consectetur unde dolores a error?</p>
             </div>
             <div className="quoteContainer">
                 <img className="developerImage" src={Quote} alt="" />
