@@ -8,8 +8,28 @@
 }
 
 .developerImage {
-    width: 15%;
-    height: 15%;
+    width: 12%;
+    height: 12%;
+}
+
+.quoteContainer {
+    grid-column: 3/9;
+    grid-row: 2/2;
+}
+
+.locationContainer {
+    grid-column: 3/9;
+    grid-row: 3/3;
+}
+
+.heartContainer {
+    grid-column: 3/9;
+    grid-row: 4/4;
+}
+
+.aboutMeTitle4 {
+    text-align: center;
+    font-size: 2rem;
 }
 
 .aboutMeTitle {
@@ -21,9 +41,9 @@
 
 .aboutMeTitle2 {
     grid-column: 3/9;
-    grid-row: 2/2;
-    text-align: center;
+    grid-row: 4/4;
     font-size: 2rem;
+    text-align: center;
 }
 
 .aboutMeTitle3 {
