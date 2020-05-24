@@ -1,7 +1,6 @@
 import React from 'react'
 import './Work.css'
 import Card from "../../components/card/Card"
-import cardImage from "../../utils/images/dog.png"
 import Gothenburg from "../../utils/images/gothenburg.png"
 import ITHS from "../../utils/images/ithogskolan.png"
 import RSM from "../../utils/images/RSM.png"
