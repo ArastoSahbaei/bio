@@ -9,6 +9,13 @@
     background-color: orange;
 }
 
+.contactSection {
+    grid-column: 3/9;
+    text-align: center;
+    color: white;
+    font-size: 2.4rem;
+}
+
 .formContainer {
     grid-column: 1/11;
     max-width: 420px;
