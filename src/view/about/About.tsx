@@ -9,11 +9,15 @@ export const About = () => {
     return (
         <div className="aboutContainer">
             <div className="pitchContainer">
-                <p className="aboutMeTitle"> Arasto Sahbaei, 27.</p>
+                <p className="aboutMeTitle"> Briefly About Me</p>
                 <img className="developerImage" src={DeveloperImg} alt="" />
-                <p className="pitchText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti omnis quidem inventore, aliquam, eligendi nostrum cumque laudantium, voluptate impedit deserunt molestias minus hic similique repellat. Consectetur unde dolores a error?</p>
-                <p className="pitchText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti omnis quidem inventore, aliquam, eligendi nostrum cumque laudantium, voluptate impedit deserunt molestias minus hic similique repellat. Consectetur unde dolores a error?</p>
-                <p className="pitchText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti omnis quidem inventore, aliquam, eligendi nostrum cumque laudantium, voluptate impedit deserunt molestias minus hic similique repellat. Consectetur unde dolores a error?</p>
+                <p className="pitchText">I was fortunate to find passion at an early phase of life and have spent most of the time doing what I love. Computers was introduced to me at a very young age and with the curiosity of a child, which has stuck to me to this day, I’ve managed to accumulate major knowledge in the fields within.
+
+Today I primarily create websites using modern JavaScript frameworks React & Angular, but I am also comfortable working with server technology & databases such as Node.js, Java & NoSQL & SQL.
+In later years I have also received formal education as I studied computer science at the university to help me widen and deepen my knowledge.
+
+My craft is precise and i take great pleasure in what i do.
+</p>
             </div>
             <div className="quoteContainer">
                 <img className="developerImage" src={Quote} alt="" />

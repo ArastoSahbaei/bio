@@ -8,3 +8,8 @@ body {
     font-family: 'FredokaOne';
     src: local('FredokaOne'), url(./utils/fonts/FredokaOne-Regular.ttf) format('truetype');
 }
+
+@font-face {
+    font-family: 'Nunito';
+    src: local('Nunito'), url(./utils/fonts/Nunito-Regular.ttf) format('truetype');
+}
