@@ -1,10 +1,10 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: FiraSans;
+    font-family: FredokaOne;
 }
 
 @font-face {
-    font-family: 'FiraSans';
-    src: local('FiraSans'), url(./utils/images/AxeHandel.ttf) format('truetype');
-  }
+    font-family: 'FredokaOne';
+    src: local('FredokaOne'), url(./utils/fonts/FredokaOne-Regular.ttf) format('truetype');
+}
