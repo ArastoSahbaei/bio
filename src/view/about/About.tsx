@@ -21,8 +21,8 @@ export const About = () => {
                 <p className="aboutMeTitle4">" Building modern, state-of-the-art, user-friendly websites and applications is truly a passion of mine "</p>
             </div>
 
+            <img className="thinkingImg" src={ThinkingImg} alt="" />
             <div className="heartContainer">
-                <img className="thinkingImg" src={ThinkingImg} alt="" />
                 <p className="whatIDoTitle">What i do</p>
                 <p className="whatIDoText">alot of text about what i do</p>
                 {/*     <p className="">Would you like to discuss a project? Contact me</p> */}

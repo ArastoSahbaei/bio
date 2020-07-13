@@ -9,10 +9,17 @@
 
 }
 
-.superHeroImage,
-.quoteImage,
+.quoteImage {
+    width: 10%;
+}
+
 .thinkingImg {
-    width: 12%;
+    grid-column: 3/6;
+    grid-row: 3/3;
+    width: 50%;
+    align-self: center;
+    justify-self: center;
+    margin-right: 15%;
 }
 
 .aboutMeTitle,
@@ -34,7 +41,7 @@
     width: 30%;
     justify-self: center;
     align-self: center;
-    margin-top: -10%;
+    margin-top: -20%;
 }
 
 .quoteContainer {
@@ -44,8 +51,10 @@
 
 
 .heartContainer {
-    grid-column: 3/9;
-    grid-row: 4/4;
+    grid-column: 6/10;
+    grid-row: 3/3;
+    justify-self: center;
+    align-self: center;
 }
 
 .aboutMeTitle4 {
